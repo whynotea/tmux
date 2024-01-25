@@ -1,0 +1,12 @@
+pane	0	0	1	:*	0	vim .config/terminator/plugins/cluster_connect_config/config.json	:/home/whynotea	0	nvim	:nvim .config/terminator/plugins/cluster_connect_config/config.json
+pane	0	0	1	:*	1	whynotea@whynotea-XPS-15-9500:~	:/home/whynotea	1	zsh	:
+pane	0	0	1	:*	2	vim zshrc	:/home/whynotea/.bootstrap/include/zsh	0	nvim	:nvim zshrc
+-zsh
+pane	0	0	1	:*	3	tmuxinator edit gitmsnodes	:/home/whynotea	0	ruby2.7	:/usr/bin/ruby2.7 /usr/local/bin/tmuxinator edit gitmsnodes
+pane	0	0	1	:*	4	whynotea@whynotea-XPS-15-9500:~/.bootstrap/include/nvim	:/home/whynotea/.bootstrap/include/nvim	0	zsh	:
+pane	gitmsnodes	0	1	:*	0	wandisco@gitnode1:~	:/home/whynotea	1	ssh	:ssh -i /home/whynotea/.ssh/Automation.pem wandisco@172.16.1.190
+pane	gitmsnodes	0	1	:*	1	wandisco@gitnode2:~	:/home/whynotea	0	ssh	:ssh -i /home/whynotea/.ssh/Automation.pem wandisco@172.16.1.191
+pane	gitmsnodes	0	1	:*	2	wandisco@gitnode3:~	:/home/whynotea	0	ssh	:ssh -i /home/whynotea/.ssh/Automation.pem wandisco@172.16.1.192
+window	0	0	:zsh	1	:*	c6a4,203x61,0,0{101x61,0,0[101x30,0,0,0,101x30,0,31,26],101x61,102,0[101x15,102,0,3,101x14,102,16,25,101x30,102,31,2]}	:
+window	gitmsnodes	0	:nodes	1	:*	4295,203x61,0,0[203x20,0,0,34,203x19,0,21,35,203x20,0,41,36]	off
+state	gitmsnodes	0
