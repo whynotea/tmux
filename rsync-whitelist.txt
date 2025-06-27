@@ -1,0 +1,6 @@
+- .git*
++ plugins/***
++ README.md
++ tmux.conf
++ rsync-whitelist.txt
+- *
